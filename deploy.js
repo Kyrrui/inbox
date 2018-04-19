@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-	'sell rubber reduce sick family seven gain stove myth crew van document',
-	'https://ropsten.infura.io/P7UbKEuUzNAwOeZrAvnb'
+	'<Pneumonic key>',
+	'<network to deploy on>'
 );
 const web3 = new Web3(provider);
 
