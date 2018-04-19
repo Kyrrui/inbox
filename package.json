@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Kyrrui/inbox#readme",
   "dependencies": {
-    "solc": "^0.4.22"
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.1",
+    "solc": "^0.4.22",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
   }
 }
